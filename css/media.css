@@ -1,0 +1,101 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  /*header start*/
+  .nav {
+    margin-top: -100px;
+    float: right;
+}
+   .nav ul li a {
+    margin: 0 10px;
+    margin-top: 20px;
+    font-size: 4px;
+
+}
+
+  }
+	/*banner start*/
+  .banner h3{
+    font-size: 20px;
+  }
+
+.banner h1{
+  font-size: 33px;
+}
+.default-btn a{
+    padding: 20px 20px;
+    font-size: 10px;
+}
+.banner_1 img {
+      width: 450px;
+      margin-left: 34px;
+}
+ .img_1 {
+    max-width: 130px;
+    height: 100px;
+}
+
+}
+/*service start*/
+.dflt-text h1{
+  font-size: 30px;
+}
+.r_icon{
+  font-size: 25px;
+}
+.dflt-text-1{
+  font-size: 25px;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/*footer start*/
+.ft-li {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+}
+.ft_li1{
+  font-size: 10px !important;
+}
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  /*header start*/
+  .nav {
+    margin-top: -100px;
+    float: right;
+}
+   .nav ul li a {
+    margin: 0 10px;
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+
+ } 
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*header start*/
+  .nav {
+    margin-top: -40px;
+    float: right;
+}
+ .nav ul li a {
+    margin: 0 10px;
+    margin-top: 50px;
+    font-size: 15px;
+
+}
+ 
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) { }
+	
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {...}
